@@ -1528,3 +1528,704 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.20-11.02.45:496][380]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
 [2025.09.20-11.02.45:510][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
 [2025.09.20-11.02.45:617][381]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.09.20-11.04.11:579][339]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 358.661072
+[2025.09.20-11.04.12:581][342]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.20-11.04.12:581][342]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 359.328369, Update Interval: 313.365265
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: ================================================
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Total job queries 549, among them cache hits 72 (13.11%), DDC hits 377 (68.67%), Duplicates 78 (14.21%)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Tracking 399 distinct input hashes that result in 288 distinct outputs (72.18%)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: RAM used: 3,69 MiB of 1,60 GiB budget. Usage: 0.23%
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Shaders Compiled: 22
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Jobs assigned 22, completed 22 (100%)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Average time worker was idle: 6.24 s
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 1.23 s
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Job execution time: average 1.64 s, max 2.63 s
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Job life time (pending + execution): average 1.79 s, max 2.96
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Shader code size: total 184,496 KiB, numShaders 22, average 8,386 KiB, min 4,285 KiB, max 13,957 KiB
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.58 s
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Average processing rate: 2.08 jobs/sec
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Total thread time: 29,769 s
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Total thread preprocess time: 13,717 s
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Percentage time preprocessing: 46.08%
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Effective parallelization: 2.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.351620
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 2.38 sec, max 2.38 sec, min 2.38 sec)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 2.02 sec, max 2.33 sec, min 1.61 sec)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 1.26 sec, max 1.44 sec, min 0.91 sec)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 1.02 sec, max 1.06 sec, min 0.93 sec)
+[2025.09.20-11.04.18:571][360]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 1.00 sec, max 1.05 sec, min 0.90 sec)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 33.96% of total time (compiled    5 times, average 2.02 sec, max 2.33 sec, min 1.61 sec)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.13% of total time (compiled    5 times, average 1.26 sec, max 1.44 sec, min 0.91 sec)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.59% of total time (compiled    5 times, average 0.99 sec, max 1.11 sec, min 0.87 sec)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.26% of total time (compiled    3 times, average 1.02 sec, max 1.06 sec, min 0.93 sec)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.07% of total time (compiled    3 times, average 1.00 sec, max 1.05 sec, min 0.90 sec)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: === Material stats ===
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Materials Translated:    153
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Material Translation Only: 0.07 s (51%)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: Material Cache Hits: 45 (29%)
+[2025.09.20-11.04.18:572][360]LogShaderCompilers: Display: ================================================
+[2025.09.20-11.04.44:257][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.09.20-11.04.44:261][762]LogStreaming: Display: FlushAsyncLoading(408): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:295][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:297][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP_BuiltData.BeholderAnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:347][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Texture/BasecolorDefault_TEX.BasecolorDefault_TEX (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:347][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Texture/Emissive_TEX.Emissive_TEX (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:351][762]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Texture/RAM_TEX.RAM_TEX (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.09.20-11.04.44:352][762]LogStaticMesh: Display: Building static mesh Stage_SM (Required Memory Estimate: 0.172494 MB)...
+[2025.09.20-11.04.44:354][762]LogStaticMesh: Built static mesh [0.00s] /Game/MonsterForSurvivalGame/Demo/Stage_SM.Stage_SM
+[2025.09.20-11.04.44:356][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkRight_ANIM.Beholder_WalkRight_ANIM (Required Memory Estimate: 0.46 MB)
+[2025.09.20-11.04.44:356][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkLeft_ANIM.Beholder_WalkLeft_ANIM (Required Memory Estimate: 0.46 MB)
+[2025.09.20-11.04.44:356][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkFWD_ANIM.Beholder_WalkFWD_ANIM (Required Memory Estimate: 0.46 MB)
+[2025.09.20-11.04.44:356][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkBWD_ANIM.Beholder_WalkBWD_ANIM (Required Memory Estimate: 0.46 MB)
+[2025.09.20-11.04.44:357][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Victory_ANIM.Beholder_Victory_ANIM (Required Memory Estimate: 0.74 MB)
+[2025.09.20-11.04.44:358][762]LogSkeletalMesh: Building Skeletal Mesh Beholder_SK...
+[2025.09.20-11.04.44:360][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Taunting_ANIM.Beholder_Taunting_ANIM (Required Memory Estimate: 0.48 MB)
+[2025.09.20-11.04.44:361][762]LogChaosDD: Creating Chaos Debug Draw Scene for world BeholderAnimShowcase_MP
+[2025.09.20-11.04.44:369][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkBWD_ANIM.Beholder_WalkBWD_ANIM, at AnimationSequence/358a4d5e3927d346c9f810f7190b4f84f3c46e48
+[2025.09.20-11.04.44:370][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_SenseSomethingST_ANIM.Beholder_SenseSomethingST_ANIM (Required Memory Estimate: 0.41 MB)
+[2025.09.20-11.04.44:372][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkFWD_ANIM.Beholder_WalkFWD_ANIM, at AnimationSequence/ac5faf10ace1f536e7fa487a5a3dff3d7f76ccab
+[2025.09.20-11.04.44:372][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkRight_ANIM.Beholder_WalkRight_ANIM, at AnimationSequence/3aa79783afc90448fda0cc477e41d8536b81bd1d
+[2025.09.20-11.04.44:373][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_WalkLeft_ANIM.Beholder_WalkLeft_ANIM, at AnimationSequence/f5ad01bcfc19a42976f491958f3aed9e2aafae42
+[2025.09.20-11.04.44:373][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_SenseSomethingRPT_ANIM.Beholder_SenseSomethingRPT_ANIM (Required Memory Estimate: 1.18 MB)
+[2025.09.20-11.04.44:373][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Run_ANIM.Beholder_Run_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.04.44:373][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_IdleNormal_ANIM.Beholder_IdleNormal_ANIM (Required Memory Estimate: 0.57 MB)
+[2025.09.20-11.04.44:376][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Taunting_ANIM.Beholder_Taunting_ANIM, at AnimationSequence/ff2806571bf2f24eef93412f137b145b18001a56
+[2025.09.20-11.04.44:376][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_IdleBattle_ANIM.Beholder_IdleBattle_ANIM (Required Memory Estimate: 0.41 MB)
+[2025.09.20-11.04.44:378][762]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MonsterForSurvivalGame/Mesh/PBR/Beholder_SK.Beholder_SK
+[2025.09.20-11.04.44:379][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_GetHit_ANIM.Beholder_GetHit_ANIM (Required Memory Estimate: 0.41 MB)
+[2025.09.20-11.04.44:379][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Victory_ANIM.Beholder_Victory_ANIM, at AnimationSequence/d0b397c4e73a272799f4cc15030dd5fb8ab4adec
+[2025.09.20-11.04.44:379][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_SenseSomethingST_ANIM.Beholder_SenseSomethingST_ANIM, at AnimationSequence/219853022548efe7fd7dec81dab5daf31d690400
+[2025.09.20-11.04.44:380][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Die_ANIM.Beholder_Die_ANIM (Required Memory Estimate: 0.41 MB)
+[2025.09.20-11.04.44:380][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Dizzy_ANIM.Beholder_Dizzy_ANIM (Required Memory Estimate: 0.57 MB)
+[2025.09.20-11.04.44:380][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Run_ANIM.Beholder_Run_ANIM, at AnimationSequence/dbcfa9e5ca9f5e4542012a18586a21c9288bf097
+[2025.09.20-11.04.44:382][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack03_ANIM.Beholder_Attack03_ANIM (Required Memory Estimate: 0.41 MB)
+[2025.09.20-11.04.44:388][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_IdleBattle_ANIM.Beholder_IdleBattle_ANIM, at AnimationSequence/6d563e6f7b575aaf034e89123d36cbc5c9cb580b
+[2025.09.20-11.04.44:389][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack02ST_ANIM.Beholder_Attack02ST_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.04.44:389][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Die_ANIM.Beholder_Die_ANIM, at AnimationSequence/d363fe788d14f3e8466fee53397be4eeea57cea9
+[2025.09.20-11.04.44:390][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_GetHit_ANIM.Beholder_GetHit_ANIM, at AnimationSequence/8deafd31d5a8360be1fc2ecb3d3b8e06c7fc469e
+[2025.09.20-11.04.44:390][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack02RPT_ANIM.Beholder_Attack02RPT_ANIM (Required Memory Estimate: 0.39 MB)
+[2025.09.20-11.04.44:391][762]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack01_ANIM.Beholder_Attack01_ANIM (Required Memory Estimate: 0.41 MB)
+[2025.09.20-11.04.44:392][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_IdleNormal_ANIM.Beholder_IdleNormal_ANIM, at AnimationSequence/7a5a3067aa3807529a54313a650be9cc138314c0
+[2025.09.20-11.04.44:393][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack03_ANIM.Beholder_Attack03_ANIM, at AnimationSequence/1385eacc7ce3605edc97d12fe42371e6be5ff56e
+[2025.09.20-11.04.44:397][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack02ST_ANIM.Beholder_Attack02ST_ANIM, at AnimationSequence/609e040ddfb7066b7ce85b98a2be9a678e140d22
+[2025.09.20-11.04.44:400][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack01_ANIM.Beholder_Attack01_ANIM, at AnimationSequence/b682ec1ea14a4a25a3a3267aa6ee52ff9c9b13fe
+[2025.09.20-11.04.44:403][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Dizzy_ANIM.Beholder_Dizzy_ANIM, at AnimationSequence/2a22813680d5b0d62ab8aa325a98733315f3fae9
+[2025.09.20-11.04.44:403][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_Attack02RPT_ANIM.Beholder_Attack02RPT_ANIM, at AnimationSequence/0d0a9c322e42ad707a4d3ff3fabd32c32a9d3f1e
+[2025.09.20-11.04.44:417][762]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Beholder/Beholder_SenseSomethingRPT_ANIM.Beholder_SenseSomethingRPT_ANIM, at AnimationSequence/d81f79a8e1a0ff2fa5532ed93d1277026d37612f
+[2025.09.20-11.04.44:482][762]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP.BeholderAnimShowcase_MP
+[2025.09.20-11.04.44:482][762]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/BeholderAnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.04.44:507][762]LogWorld: UWorld::CleanupWorld for MP_TinyHeroAnimations, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.04.44:507][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.04.44:535][762]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.04.44:543][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.09.20-11.04.45:840][762]LogMeshUtilities: Finished distance field build in 1.3s - 126x126x126 sparse distance field, 1.1Mb total, 0.1Mb always loaded, 30% occupied, 0 triangles, Stage_SM
+[2025.09.20-11.04.45:903][762]LogWorld: UWorld::CleanupWorld for BeholderAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.04.45:903][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.04.45:933][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.09.20-11.04.45:960][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.20-11.04.45:969][762]LogAudio: Display: Audio Device (ID: 1) registered with world 'BeholderAnimShowcase_MP'.
+[2025.09.20-11.04.45:969][762]LogChaosDD: Creating Chaos Debug Draw Scene for world BeholderAnimShowcase_MP
+[2025.09.20-11.04.46:130][762]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.04.46:162][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.20-11.04.46:171][762]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.04.46:171][762]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,114ms to complete.
+[2025.09.20-11.04.46:692][764]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.04.47:737][804]LogPSOHitching: Encountered 50 PSO creation hitches so far (42 graphics, 8 compute). 0 of them were precached.
+[2025.09.20-11.05.14:939][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.09.20-11.05.14:944][131]LogStreaming: Display: FlushAsyncLoading(410): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.14:965][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:965][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:965][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:965][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:966][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:966][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:966][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:967][131]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP_BuiltData.CactusAnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.14:990][131]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\PBR\Cactus_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.14:992][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkRGT_ANIM.Cactus_WalkRGT_ANIM (Required Memory Estimate: 0.31 MB)
+[2025.09.20-11.05.14:992][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkLFT_ANIM.Cactus_WalkLFT_ANIM (Required Memory Estimate: 0.31 MB)
+[2025.09.20-11.05.14:992][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkFWD_ANIM.Cactus_WalkFWD_ANIM (Required Memory Estimate: 0.31 MB)
+[2025.09.20-11.05.14:992][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkBWD_ANIM.Cactus_WalkBWD_ANIM (Required Memory Estimate: 0.31 MB)
+[2025.09.20-11.05.14:992][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Victory_ANIM.Cactus_Victory_ANIM (Required Memory Estimate: 0.61 MB)
+[2025.09.20-11.05.14:993][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Taunting_ANIM.Cactus_Taunting_ANIM (Required Memory Estimate: 0.44 MB)
+[2025.09.20-11.05.14:995][131]LogChaosDD: Creating Chaos Debug Draw Scene for world CactusAnimShowcase_MP
+[2025.09.20-11.05.14:997][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkFWD_ANIM.Cactus_WalkFWD_ANIM, at AnimationSequence/693719a54b7fee16fc995a69f0cd14534c34d7e5
+[2025.09.20-11.05.14:997][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkBWD_ANIM.Cactus_WalkBWD_ANIM, at AnimationSequence/822438f35c6b877ead34c871c41809f0c3e4f5c0
+[2025.09.20-11.05.14:997][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_SenseSomethingStart_ANIM.Cactus_SenseSomethingStart_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.14:997][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_SenseSomethingMaint_ANIM.Cactus_SenseSomethingMaint_ANIM (Required Memory Estimate: 0.61 MB)
+[2025.09.20-11.05.14:997][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkLFT_ANIM.Cactus_WalkLFT_ANIM, at AnimationSequence/91fae5cbe024d45b2155019a46e1fe6c14690310
+[2025.09.20-11.05.14:998][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_RunFWD_ANIM.Cactus_RunFWD_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.15:000][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_RunFWD_ANIM.Cactus_RunFWD_ANIM, at AnimationSequence/4879bb2cdaf4d2e85f4298dc8b76dab140e9e077
+[2025.09.20-11.05.15:001][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdlePlantToBattle_ANIM.Cactus_IdlePlantToBattle_ANIM (Required Memory Estimate: 0.27 MB)
+[2025.09.20-11.05.15:003][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_SenseSomethingStart_ANIM.Cactus_SenseSomethingStart_ANIM, at AnimationSequence/a638a1b5f542431d156a8189745dee4c1aac33f3
+[2025.09.20-11.05.15:004][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdlePlant_ANIM.Cactus_IdlePlant_ANIM (Required Memory Estimate: 0.27 MB)
+[2025.09.20-11.05.15:004][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdlePlantToBattle_ANIM.Cactus_IdlePlantToBattle_ANIM, at AnimationSequence/3169300b622343a35fd3c6963aa691638ff5074c
+[2025.09.20-11.05.15:005][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Taunting_ANIM.Cactus_Taunting_ANIM, at AnimationSequence/ba91f1a35a56d4d1c884d54c2dd0f139b01d3a00
+[2025.09.20-11.05.15:005][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdleNormal_ANIM.Cactus_IdleNormal_ANIM (Required Memory Estimate: 0.34 MB)
+[2025.09.20-11.05.15:005][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdleBattle_ANIM.Cactus_IdleBattle_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.15:007][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdlePlant_ANIM.Cactus_IdlePlant_ANIM, at AnimationSequence/5b649b30bce3222afc100c1f944124e5c6fefddc
+[2025.09.20-11.05.15:007][131]LogSkeletalMesh: Building Skeletal Mesh Cactus_SK...
+[2025.09.20-11.05.15:007][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_GetHit_ANIM.Cactus_GetHit_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.15:008][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdleBattle_ANIM.Cactus_IdleBattle_ANIM, at AnimationSequence/71234b8d8858fa978c9280431edfd394c13d325a
+[2025.09.20-11.05.15:009][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Dizzy_ANIM.Cactus_Dizzy_ANIM (Required Memory Estimate: 0.34 MB)
+[2025.09.20-11.05.15:010][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_GetHit_ANIM.Cactus_GetHit_ANIM, at AnimationSequence/6567703ad66bd91f720739034afa7cbb7572a3ca
+[2025.09.20-11.05.15:010][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_IdleNormal_ANIM.Cactus_IdleNormal_ANIM, at AnimationSequence/4bb7a142129d5c9ee59eae9d76bc92faac46f4f7
+[2025.09.20-11.05.15:011][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Die_ANIM.Cactus_Die_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.15:011][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Attack02_ANIM.Cactus_Attack02_ANIM (Required Memory Estimate: 0.29 MB)
+[2025.09.20-11.05.15:013][131]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Cactus_SK) ...
+[2025.09.20-11.05.15:013][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Dizzy_ANIM.Cactus_Dizzy_ANIM, at AnimationSequence/b344a0a90bcb45ea7e60eedfdb3675dbbcc47c7d
+[2025.09.20-11.05.15:014][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Die_ANIM.Cactus_Die_ANIM, at AnimationSequence/0358843bf44d2832ca38f85d6d57f1566a73b17f
+[2025.09.20-11.05.15:014][131]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Attack01_ANIM.Cactus_Attack01_ANIM (Required Memory Estimate: 0.27 MB)
+[2025.09.20-11.05.15:016][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_WalkRGT_ANIM.Cactus_WalkRGT_ANIM, at AnimationSequence/a5cf14b7ca215abbbaefa521c6b963b78971c458
+[2025.09.20-11.05.15:019][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Attack01_ANIM.Cactus_Attack01_ANIM, at AnimationSequence/8ec45060f9dd4a31f68e7729f599f0f90eff4972
+[2025.09.20-11.05.15:031][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Victory_ANIM.Cactus_Victory_ANIM, at AnimationSequence/0193286d0df18904c4fba32223b3e451b0a981c5
+[2025.09.20-11.05.15:037][131]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/MonsterForSurvivalGame/Mesh/PBR/Cactus_SK.Cactus_SK
+[2025.09.20-11.05.15:046][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_SenseSomethingMaint_ANIM.Cactus_SenseSomethingMaint_ANIM, at AnimationSequence/b06ee10227c3ffff87fdafc034068020ef85738c
+[2025.09.20-11.05.15:056][131]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Cactus/Cactus_Attack02_ANIM.Cactus_Attack02_ANIM, at AnimationSequence/95a56dccb6fd0a10c8f9d05263c5ff1da80218bd
+[2025.09.20-11.05.15:122][131]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP.CactusAnimShowcase_MP
+[2025.09.20-11.05.15:122][131]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/CactusAnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.15:148][131]LogWorld: UWorld::CleanupWorld for BeholderAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.15:148][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.15:176][131]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.15:183][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.20-11.05.15:186][131]LogWorld: UWorld::CleanupWorld for CactusAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.15:187][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.15:218][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.20-11.05.15:250][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.09.20-11.05.15:264][131]LogAudio: Display: Audio Device (ID: 1) registered with world 'CactusAnimShowcase_MP'.
+[2025.09.20-11.05.15:264][131]LogChaosDD: Creating Chaos Debug Draw Scene for world CactusAnimShowcase_MP
+[2025.09.20-11.05.15:417][131]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.15:446][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.09.20-11.05.15:455][131]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.15:455][131]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,085ms to complete.
+[2025.09.20-11.05.15:653][132]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.05.18:857][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.09.20-11.05.18:863][290]LogStreaming: Display: FlushAsyncLoading(412): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:882][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:883][290]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP_BuiltData.ChestMonsterAnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.18:908][290]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\PBR\ChestMonster_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.18:911][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkLeft_ANIM.ChestMonster_WalkLeft_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.18:911][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkRight_ANIM.ChestMonster_WalkRight_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.18:911][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkFWD_ANIM.ChestMonster_WalkFWD_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.18:911][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkBWD_ANIM.ChestMonster_WalkBWD_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.18:911][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Victory_ANIM.ChestMonster_Victory_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.18:911][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Taunting_ANIM.ChestMonster_Taunting_ANIM (Required Memory Estimate: 0.46 MB)
+[2025.09.20-11.05.18:914][290]LogChaosDD: Creating Chaos Debug Draw Scene for world ChestMonsterAnimShowcase_MP
+[2025.09.20-11.05.18:917][290]LogSkeletalMesh: Building Skeletal Mesh ChestMonster_SK...
+[2025.09.20-11.05.18:919][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkFWD_ANIM.ChestMonster_WalkFWD_ANIM, at AnimationSequence/a4c942faa33b3fd1b4fbf1e4a922df1d10cab94d
+[2025.09.20-11.05.18:919][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Victory_ANIM.ChestMonster_Victory_ANIM, at AnimationSequence/bef299983dabe226df1944fd58658233af3c4921
+[2025.09.20-11.05.18:919][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_SenseSomethingST_ANIM.ChestMonster_SenseSomethingST_ANIM (Required Memory Estimate: 0.24 MB)
+[2025.09.20-11.05.18:920][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkRight_ANIM.ChestMonster_WalkRight_ANIM, at AnimationSequence/00c32e3979d9a19ffb94ecccd956ee44296d8ffc
+[2025.09.20-11.05.18:920][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_SenseSomethingRPT_ANIM.ChestMonster_SenseSomethingRPT_ANIM (Required Memory Estimate: 0.79 MB)
+[2025.09.20-11.05.18:920][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Run_ANIM.ChestMonster_Run_ANIM (Required Memory Estimate: 0.27 MB)
+[2025.09.20-11.05.18:921][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkLeft_ANIM.ChestMonster_WalkLeft_ANIM, at AnimationSequence/5f24737131512e446528e588004ed8bbcf48a2c2
+[2025.09.20-11.05.18:921][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_SenseSomethingST_ANIM.ChestMonster_SenseSomethingST_ANIM, at AnimationSequence/51f79f1582b7f68caa93d0fe83a84ad953ed4f10
+[2025.09.20-11.05.18:922][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_IdleNormal_ANIM.ChestMonster_IdleNormal_ANIM (Required Memory Estimate: 0.37 MB)
+[2025.09.20-11.05.18:922][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_WalkBWD_ANIM.ChestMonster_WalkBWD_ANIM, at AnimationSequence/0205714fd8c7e57ed60c7613fd8c1e3b8ffd21f6
+[2025.09.20-11.05.18:922][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_IdleChest_ANIM.ChestMonster_IdleChest_ANIM (Required Memory Estimate: 0.29 MB)
+[2025.09.20-11.05.18:922][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Run_ANIM.ChestMonster_Run_ANIM, at AnimationSequence/bb6dba85b91d8514edcdc995f511267822dcb24d
+[2025.09.20-11.05.18:922][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_IdleBattle_ANIM.ChestMonster_IdleBattle_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.05.18:923][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_GetHit_ANIM.ChestMonster_GetHit_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.18:924][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_IdleChest_ANIM.ChestMonster_IdleChest_ANIM, at AnimationSequence/b0d6d5416f2b68a90750639dfbd1ca16fc74f1a9
+[2025.09.20-11.05.18:925][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Dizzy_ANIM.ChestMonster_Dizzy_ANIM (Required Memory Estimate: 0.37 MB)
+[2025.09.20-11.05.18:925][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_GetHit_ANIM.ChestMonster_GetHit_ANIM, at AnimationSequence/7d6c9f4714f348f0abfabf0ea21de866d206a9e7
+[2025.09.20-11.05.18:925][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Die_ANIM.ChestMonster_Die_ANIM (Required Memory Estimate: 0.32 MB)
+[2025.09.20-11.05.18:927][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_IdleBattle_ANIM.ChestMonster_IdleBattle_ANIM, at AnimationSequence/99e5ec692eae539f18872641c005674f13fd4c76
+[2025.09.20-11.05.18:927][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Attack02_ANIM.ChestMonster_Attack02_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.05.18:929][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Dizzy_ANIM.ChestMonster_Dizzy_ANIM, at AnimationSequence/e8ef915bf1fe3c0ca8ba49d6aa197a3d2b3de004
+[2025.09.20-11.05.18:930][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Taunting_ANIM.ChestMonster_Taunting_ANIM, at AnimationSequence/7b55bd0806acf0fe6598031ef075ce01abee7cea
+[2025.09.20-11.05.18:930][290]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Attack01_ANIM.ChestMonster_Attack01_ANIM (Required Memory Estimate: 0.31 MB)
+[2025.09.20-11.05.18:930][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Die_ANIM.ChestMonster_Die_ANIM, at AnimationSequence/b59deccc2a645faad65c9475a8fd5c703140dff4
+[2025.09.20-11.05.18:932][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_IdleNormal_ANIM.ChestMonster_IdleNormal_ANIM, at AnimationSequence/13307b14c51cf5885d6c45a7429df263bc52885c
+[2025.09.20-11.05.18:932][290]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (ChestMonster_SK) ...
+[2025.09.20-11.05.18:934][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Attack02_ANIM.ChestMonster_Attack02_ANIM, at AnimationSequence/c0243a9a006343593c66de7a2f234190309dcd20
+[2025.09.20-11.05.18:939][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_Attack01_ANIM.ChestMonster_Attack01_ANIM, at AnimationSequence/90e6d5c6e4c73646c7d7e1e832f3b6d2f4b0090d
+[2025.09.20-11.05.18:942][290]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/MonsterForSurvivalGame/Mesh/PBR/ChestMonster_SK.ChestMonster_SK
+[2025.09.20-11.05.18:952][290]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/ChestMonster/ChestMonster_SenseSomethingRPT_ANIM.ChestMonster_SenseSomethingRPT_ANIM, at AnimationSequence/561d38fb928fee139afecd927a6e26272adc132d
+[2025.09.20-11.05.19:026][290]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP.ChestMonsterAnimShowcase_MP
+[2025.09.20-11.05.19:026][290]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/ChestMonsterAnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.19:049][290]LogWorld: UWorld::CleanupWorld for CactusAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.19:049][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.19:079][290]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.19:082][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.20-11.05.19:084][290]LogWorld: UWorld::CleanupWorld for ChestMonsterAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.19:084][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.19:116][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.09.20-11.05.19:146][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.09.20-11.05.19:158][290]LogAudio: Display: Audio Device (ID: 1) registered with world 'ChestMonsterAnimShowcase_MP'.
+[2025.09.20-11.05.19:158][290]LogChaosDD: Creating Chaos Debug Draw Scene for world ChestMonsterAnimShowcase_MP
+[2025.09.20-11.05.19:313][290]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.19:344][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.20-11.05.19:353][290]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.19:353][290]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,088ms to complete.
+[2025.09.20-11.05.19:660][291]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.05.22:652][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.09.20-11.05.22:658][432]LogStreaming: Display: FlushAsyncLoading(414): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:680][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:682][432]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP_BuiltData.DefaultPBR_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.22:687][432]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\PBR\Mushroom_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.22:690][432]LogChaosDD: Creating Chaos Debug Draw Scene for world DefaultPBR_MP
+[2025.09.20-11.05.22:694][432]LogSkeletalMesh: Building Skeletal Mesh Mushroom_SK...
+[2025.09.20-11.05.22:705][432]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/PBR/Mushroom_SK.Mushroom_SK
+[2025.09.20-11.05.22:705][432]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\PBR\TurtleShell_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.22:707][432]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (TurtleShell_SK) ...
+[2025.09.20-11.05.22:710][432]LogSkeletalMesh: Building Skeletal Mesh TurtleShell_SK...
+[2025.09.20-11.05.22:719][432]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/PBR/TurtleShell_SK.TurtleShell_SK
+[2025.09.20-11.05.22:719][432]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\PBR\Slime_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.22:724][432]LogSkeletalMesh: Building Skeletal Mesh Slime_SK...
+[2025.09.20-11.05.22:733][432]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/PBR/Slime_SK.Slime_SK
+[2025.09.20-11.05.22:739][432]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Swarm08_SK) ...
+[2025.09.20-11.05.22:740][432]LogSkeletalMesh: Building Skeletal Mesh Swarm08_SK...
+[2025.09.20-11.05.22:753][432]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/PBR/Swarm08_SK.Swarm08_SK
+[2025.09.20-11.05.22:754][432]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Attack02_ANIM.TurtleShell_Attack02_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.05.22:754][432]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_Attack01Smile_ANIM.Mushroom_Attack01Smile_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.22:754][432]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_Attack_Anim.Swarm08_Attack_Anim (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.05.22:754][432]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_Attack_Anim.Swarm09_Attack_Anim (Required Memory Estimate: 0.24 MB)
+[2025.09.20-11.05.22:754][432]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_GetHit_ANIM.Slime_GetHit_ANIM (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.05.22:757][432]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_Attack_Anim.Swarm08_Attack_Anim, at AnimationSequence/c8bce4939a9e9a814e594dea960c2302a9a12836
+[2025.09.20-11.05.22:757][432]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_Attack_Anim.Swarm09_Attack_Anim, at AnimationSequence/f5def98c84411be6694322f25cc90d1e83e9497c
+[2025.09.20-11.05.22:759][432]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_Attack01Smile_ANIM.Mushroom_Attack01Smile_ANIM, at AnimationSequence/4967a1f8d411e3ea5ba03a9b23622755483e2ed9
+[2025.09.20-11.05.22:760][432]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Attack02_ANIM.TurtleShell_Attack02_ANIM, at AnimationSequence/e9a42bcf4d16f2199fc6b34e5231940de013b858
+[2025.09.20-11.05.22:761][432]LogSkeletalMesh: Building Skeletal Mesh Swarm09_SK...
+[2025.09.20-11.05.22:763][432]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_GetHit_ANIM.Slime_GetHit_ANIM, at AnimationSequence/350ca03fb66c3d7e50122e85ad5bcdda152fd7dd
+[2025.09.20-11.05.22:771][432]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/PBR/Swarm09_SK.Swarm09_SK
+[2025.09.20-11.05.22:832][432]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP.DefaultPBR_MP
+[2025.09.20-11.05.22:833][432]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/DefaultPBR_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.22:856][432]LogWorld: UWorld::CleanupWorld for ChestMonsterAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.22:856][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.22:886][432]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.22:891][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.20-11.05.22:893][432]LogWorld: UWorld::CleanupWorld for DefaultPBR_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.22:893][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.22:925][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.20-11.05.22:954][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.09.20-11.05.22:963][432]LogAudio: Display: Audio Device (ID: 1) registered with world 'DefaultPBR_MP'.
+[2025.09.20-11.05.22:963][432]LogChaosDD: Creating Chaos Debug Draw Scene for world DefaultPBR_MP
+[2025.09.20-11.05.23:113][432]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.23:144][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.20-11.05.23:153][432]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.23:153][432]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,094ms to complete.
+[2025.09.20-11.05.23:348][434]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.05.36:489][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.09.20-11.05.36:495][697]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/DefaultPBR_MP.DefaultPBR_MP
+[2025.09.20-11.05.36:496][697]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/DefaultPBR_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.36:520][697]LogWorld: UWorld::CleanupWorld for DefaultPBR_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.36:522][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.36:554][697]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.36:557][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.09.20-11.05.36:558][697]LogStreaming: Display: FlushAsyncLoading(416): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.36:566][697]LogAudio: Display: Audio Device (ID: 1) registered with world 'DefaultPBR_MP'.
+[2025.09.20-11.05.36:566][697]LogChaosDD: Creating Chaos Debug Draw Scene for world DefaultPBR_MP
+[2025.09.20-11.05.36:776][697]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.36:805][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.20-11.05.36:813][697]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.36:813][697]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,067ms to complete.
+[2025.09.20-11.05.37:045][699]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.05.38:081][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.09.20-11.05.38:088][757]LogStreaming: Display: FlushAsyncLoading(417): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.38:133][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:133][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:133][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:134][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:134][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:134][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:134][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:135][757]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP_BuiltData.DefaultPolyart_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.38:152][757]LogChaosDD: Creating Chaos Debug Draw Scene for world DefaultPolyart_MP
+[2025.09.20-11.05.38:154][757]LogSkeletalMesh: Building Skeletal Mesh Beholder_SK...
+[2025.09.20-11.05.38:170][757]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (TurtleShell_SK) ...
+[2025.09.20-11.05.38:178][757]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MonsterForSurvivalGame/Mesh/Polyart/Beholder_SK.Beholder_SK
+[2025.09.20-11.05.38:178][757]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\Polyart\TurtleShell_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.38:183][757]LogSkeletalMesh: Building Skeletal Mesh TurtleShell_SK...
+[2025.09.20-11.05.38:194][757]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/Polyart/TurtleShell_SK.TurtleShell_SK
+[2025.09.20-11.05.38:195][757]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\Polyart\Cactus_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.38:212][757]LogSkeletalMesh: Building Skeletal Mesh Cactus_SK...
+[2025.09.20-11.05.38:247][757]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/MonsterForSurvivalGame/Mesh/Polyart/Cactus_SK.Cactus_SK
+[2025.09.20-11.05.38:247][757]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\Polyart\ChestMonster_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.38:258][757]LogSkeletalMesh: Building Skeletal Mesh ChestMonster_SK...
+[2025.09.20-11.05.38:272][757]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (ChestMonster_SK) ...
+[2025.09.20-11.05.38:275][757]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MonsterForSurvivalGame/Mesh/Polyart/ChestMonster_SK.ChestMonster_SK
+[2025.09.20-11.05.38:276][757]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\Polyart\Mushroom_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.38:282][757]LogSkeletalMesh: Building Skeletal Mesh Mushroom_SK...
+[2025.09.20-11.05.38:294][757]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Mushroom_SK) ...
+[2025.09.20-11.05.38:295][757]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/Polyart/Mushroom_SK.Mushroom_SK
+[2025.09.20-11.05.38:295][757]LogSkeletalMesh: Display: [AssetLog] C:\Users\nadia\source\repos\Yuu1198\TinyRPG\TinyRPG\Content\MonsterForSurvivalGame\Mesh\Polyart\Slime_SK.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2025.09.20-11.05.38:299][757]LogSkeletalMesh: Building Skeletal Mesh Slime_SK...
+[2025.09.20-11.05.38:309][757]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/Polyart/Slime_SK.Slime_SK
+[2025.09.20-11.05.38:312][757]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Swarm08_SK) ...
+[2025.09.20-11.05.38:317][757]LogSkeletalMesh: Building Skeletal Mesh Swarm08_SK...
+[2025.09.20-11.05.38:332][757]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MonsterForSurvivalGame/Mesh/Polyart/Swarm08_SK.Swarm08_SK
+[2025.09.20-11.05.38:334][757]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/Polyart/TurtleShell/TurtleShell_Attack01_ANIM.TurtleShell_Attack01_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.05.38:334][757]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/Polyart/Slime/Slime_Attack01_ANIM.Slime_Attack01_ANIM (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.05.38:334][757]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/Polyart/Mushroom/SmileVersion/Mushroom_Attack02Smile_ANIM.Mushroom_Attack02Smile_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.38:339][757]LogSkeletalMesh: Building Skeletal Mesh Swarm09_SK...
+[2025.09.20-11.05.38:340][757]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/Polyart/TurtleShell/TurtleShell_Attack01_ANIM.TurtleShell_Attack01_ANIM, at AnimationSequence/c1cc9c60cfc7c8104c475ca40e5214a7c8b5786f
+[2025.09.20-11.05.38:341][757]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/Polyart/Slime/Slime_Attack01_ANIM.Slime_Attack01_ANIM, at AnimationSequence/843124aa3969bb1a906706eaea5554fdc68015c0
+[2025.09.20-11.05.38:350][757]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MonsterForSurvivalGame/Mesh/Polyart/Swarm09_SK.Swarm09_SK
+[2025.09.20-11.05.38:354][757]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/DefaultPolyart_MP.DefaultPolyart_MP
+[2025.09.20-11.05.38:354][757]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/DefaultPolyart_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.38:354][757]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/Polyart/Mushroom/SmileVersion/Mushroom_Attack02Smile_ANIM.Mushroom_Attack02Smile_ANIM, at AnimationSequence/b5ec083b3d948fb4c4575758b50699297c5abe97
+[2025.09.20-11.05.38:376][757]LogWorld: UWorld::CleanupWorld for DefaultPBR_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.38:376][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.38:404][757]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.38:407][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.09.20-11.05.38:409][757]LogWorld: UWorld::CleanupWorld for DefaultPolyart_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.38:409][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.38:437][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.20-11.05.38:465][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.20-11.05.38:475][757]LogAudio: Display: Audio Device (ID: 1) registered with world 'DefaultPolyart_MP'.
+[2025.09.20-11.05.38:475][757]LogChaosDD: Creating Chaos Debug Draw Scene for world DefaultPolyart_MP
+[2025.09.20-11.05.38:613][757]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.38:642][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.09.20-11.05.38:650][757]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.38:650][757]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,071ms to complete.
+[2025.09.20-11.05.38:837][758]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.05.41:266][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.09.20-11.05.41:269][827]LogStreaming: Display: FlushAsyncLoading(419): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.41:302][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:303][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:303][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:303][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:303][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:303][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:303][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:304][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkRGTSmile_ANIM.Mushroom_walkRGTSmile_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.05.41:304][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkLFTSmile_ANIM.Mushroom_walkLFTSmile_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.05.41:304][827]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP_BuiltData.MushroomAnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.41:305][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkFWDSmile_ANIM.Mushroom_walkFWDSmile_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.05.41:305][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkBWDSmile_ANIM.Mushroom_walkBWDSmile_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.05.41:305][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_VictorySmile_ANIM.Mushroom_VictorySmile_ANIM (Required Memory Estimate: 0.40 MB)
+[2025.09.20-11.05.41:306][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_TauntingSmile_ANIM.Mushroom_TauntingSmile_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.41:307][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_SenseSomethingStartSmile_ANIM.Mushroom_SenseSomethingStartSmile_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.41:307][827]LogChaosDD: Creating Chaos Debug Draw Scene for world MushroomAnimShowcase_MP
+[2025.09.20-11.05.41:310][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_SenseSomethingStartSmile_ANIM.Mushroom_SenseSomethingStartSmile_ANIM, at AnimationSequence/de5ed35224e512ea1ad132ef6b20ad419df2f840
+[2025.09.20-11.05.41:311][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_SenseSomethingMaintainSmile_ANIM.Mushroom_SenseSomethingMaintainSmile_ANIM (Required Memory Estimate: 0.59 MB)
+[2025.09.20-11.05.41:314][827]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP.MushroomAnimShowcase_MP
+[2025.09.20-11.05.41:314][827]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/MushroomAnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.41:326][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_SenseSomethingMaintainSmile_ANIM.Mushroom_SenseSomethingMaintainSmile_ANIM, at AnimationSequence/792f3b6f83735a236e3edb72477bac1bb9d67d0b
+[2025.09.20-11.05.41:327][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_runFWDSmile_ANIM.Mushroom_runFWDSmile_ANIM (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.05.41:328][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkRGTSmile_ANIM.Mushroom_walkRGTSmile_ANIM, at AnimationSequence/ed3a6cac2db7e1f69e44197512d1fb6cb4bf6b23
+[2025.09.20-11.05.41:329][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_IdlePlantToBattleSmile_ANIM.Mushroom_IdlePlantToBattleSmile_ANIM (Required Memory Estimate: 0.27 MB)
+[2025.09.20-11.05.41:331][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkBWDSmile_ANIM.Mushroom_walkBWDSmile_ANIM, at AnimationSequence/73ad0d1e0c2e8376f1834ca0821f595e5adad0e4
+[2025.09.20-11.05.41:332][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_IdleNormalSmile_ANIM.Mushroom_IdleNormalSmile_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.41:334][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkLFTSmile_ANIM.Mushroom_walkLFTSmile_ANIM, at AnimationSequence/c56a0d92965de53a21c0d92a9a8b07f26641a5c0
+[2025.09.20-11.05.41:335][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_IdleBattleSmile_ANIM.Mushroom_IdleBattleSmile_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.41:345][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_walkFWDSmile_ANIM.Mushroom_walkFWDSmile_ANIM, at AnimationSequence/c46f906aef8e9edf9906cbfd1978de34fd79a07a
+[2025.09.20-11.05.41:346][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_GetHitSmile_ANIM.Mushroom_GetHitSmile_ANIM (Required Memory Estimate: 0.27 MB)
+[2025.09.20-11.05.41:348][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_IdleBattleSmile_ANIM.Mushroom_IdleBattleSmile_ANIM, at AnimationSequence/c2f2f97430ae42038a61098887df4b8a311b9493
+[2025.09.20-11.05.41:348][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_DizzySmile_ANIM.Mushroom_DizzySmile_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.41:351][827]LogWorld: UWorld::CleanupWorld for DefaultPolyart_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.41:351][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.41:354][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_IdlePlantToBattleSmile_ANIM.Mushroom_IdlePlantToBattleSmile_ANIM, at AnimationSequence/0a111e37f9d4d0fc4aca987fb4e275eb346b237c
+[2025.09.20-11.05.41:355][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_DieSmile_ANIM.Mushroom_DieSmile_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.41:358][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_runFWDSmile_ANIM.Mushroom_runFWDSmile_ANIM, at AnimationSequence/f0298e0cd1464a580a79b8fd6a6c8c85da0d489a
+[2025.09.20-11.05.41:359][827]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_Attack03Smile_ANIM.Mushroom_Attack03Smile_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.41:361][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_TauntingSmile_ANIM.Mushroom_TauntingSmile_ANIM, at AnimationSequence/b28f50f418f8013261830a05bd86e0d463740c0d
+[2025.09.20-11.05.41:373][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_GetHitSmile_ANIM.Mushroom_GetHitSmile_ANIM, at AnimationSequence/a94a5971080730c45bbd2055a7d0c3678191e73c
+[2025.09.20-11.05.41:374][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_IdleNormalSmile_ANIM.Mushroom_IdleNormalSmile_ANIM, at AnimationSequence/47d43b96e3944ab7b8a21b944cd7d517ddc44f27
+[2025.09.20-11.05.41:386][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_DizzySmile_ANIM.Mushroom_DizzySmile_ANIM, at AnimationSequence/cc4c954cc4e6fc127e1eb03fd1c9f77f954edaed
+[2025.09.20-11.05.41:387][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_DieSmile_ANIM.Mushroom_DieSmile_ANIM, at AnimationSequence/76099f7c79fce5591f431300c7c455a91e2bd5a1
+[2025.09.20-11.05.41:395][827]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.41:399][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.09.20-11.05.41:400][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_VictorySmile_ANIM.Mushroom_VictorySmile_ANIM, at AnimationSequence/0eac62b34c7fe6fe72795a0432d70eff80f66436
+[2025.09.20-11.05.41:402][827]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Mushroom/SmileVersion/Mushroom_Attack03Smile_ANIM.Mushroom_Attack03Smile_ANIM, at AnimationSequence/d9965cf8c32bdf3f1289002e128b505236e9ac3e
+[2025.09.20-11.05.41:402][827]LogWorld: UWorld::CleanupWorld for MushroomAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.41:403][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.41:433][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.09.20-11.05.41:532][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.20-11.05.41:541][827]LogAudio: Display: Audio Device (ID: 1) registered with world 'MushroomAnimShowcase_MP'.
+[2025.09.20-11.05.41:541][827]LogChaosDD: Creating Chaos Debug Draw Scene for world MushroomAnimShowcase_MP
+[2025.09.20-11.05.41:706][827]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.41:734][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.09.20-11.05.41:745][827]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.41:745][827]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,083ms to complete.
+[2025.09.20-11.05.41:915][829]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.05.44:963][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.09.20-11.05.44:969][974]LogStreaming: Display: FlushAsyncLoading(421): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.05.44:993][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:993][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:993][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:994][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:994][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:994][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:994][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:995][974]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP_BuiltData.SlimeAnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.05.44:996][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_WalkRight_ANIM.Slime_WalkRight_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.44:996][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_WalkLeft_ANIM.Slime_WalkLeft_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.44:996][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_WalkBack_ANIM.Slime_WalkBack_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.44:997][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Walk_ANIM.Slime_Walk_ANIM (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.05.44:997][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Victory_ANIM.Slime_Victory_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.05.44:997][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Taunt_ANIM.Slime_Taunt_ANIM (Required Memory Estimate: 0.24 MB)
+[2025.09.20-11.05.44:998][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_SenseSomethingStart_ANIM.Slime_SenseSomethingStart_ANIM (Required Memory Estimate: 0.32 MB)
+[2025.09.20-11.05.44:998][974]LogChaosDD: Creating Chaos Debug Draw Scene for world SlimeAnimShowcase_MP
+[2025.09.20-11.05.45:001][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Taunt_ANIM.Slime_Taunt_ANIM, at AnimationSequence/22559ff3a4592d8f1e2a94801c474c158a2b0e19
+[2025.09.20-11.05.45:001][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_SenseSomethingStart_ANIM.Slime_SenseSomethingStart_ANIM, at AnimationSequence/a5bf5e5d159f7029a5731f3a21ae4bfcdee8238b
+[2025.09.20-11.05.45:001][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_SenseSomethingRoutine_ANIM.Slime_SenseSomethingRoutine_ANIM (Required Memory Estimate: 0.33 MB)
+[2025.09.20-11.05.45:001][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Victory_ANIM.Slime_Victory_ANIM, at AnimationSequence/f015c11064f2d18c349eac7a5ab255e54026d41e
+[2025.09.20-11.05.45:002][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Run_ANIM.Slime_Run_ANIM (Required Memory Estimate: 0.24 MB)
+[2025.09.20-11.05.45:002][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_IdleNormal_ANIM.Slime_IdleNormal_ANIM (Required Memory Estimate: 0.29 MB)
+[2025.09.20-11.05.45:004][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_WalkBack_ANIM.Slime_WalkBack_ANIM, at AnimationSequence/b9f39a8dfbf0a37eb8275f48b17184372ebbf5c7
+[2025.09.20-11.05.45:005][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_IdleBattle_ANIM.Slime_IdleBattle_ANIM (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.05.45:005][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_SenseSomethingRoutine_ANIM.Slime_SenseSomethingRoutine_ANIM, at AnimationSequence/1fe2c13ac4851cea076bea17e86c1c77a81640c8
+[2025.09.20-11.05.45:005][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_IdleNormal_ANIM.Slime_IdleNormal_ANIM, at AnimationSequence/f4715574b8e5b04475baab59652fe9ac9e19e643
+[2025.09.20-11.05.45:005][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Dizzy_ANIM.Slime_Dizzy_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.45:005][974]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP.SlimeAnimShowcase_MP
+[2025.09.20-11.05.45:006][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Walk_ANIM.Slime_Walk_ANIM, at AnimationSequence/b7d605c7f1aa49411521edbb8de88afdfe37497e
+[2025.09.20-11.05.45:006][974]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/SlimeAnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.05.45:006][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Die_ANIM.Slime_Die_ANIM (Required Memory Estimate: 0.28 MB)
+[2025.09.20-11.05.45:006][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_WalkRight_ANIM.Slime_WalkRight_ANIM, at AnimationSequence/3ce403227d9e2757587cade6e83e114a5bf3d073
+[2025.09.20-11.05.45:006][974]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Attack02_ANIM.Slime_Attack02_ANIM (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.05.45:008][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Dizzy_ANIM.Slime_Dizzy_ANIM, at AnimationSequence/a5a72c64d580bc9d6a223255338486f1d95ff308
+[2025.09.20-11.05.45:008][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_IdleBattle_ANIM.Slime_IdleBattle_ANIM, at AnimationSequence/0a93bffce889527e7a014118bcc6cb183efb144b
+[2025.09.20-11.05.45:011][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_WalkLeft_ANIM.Slime_WalkLeft_ANIM, at AnimationSequence/6766fde76757c26338ef0d49591fe034cbfc56ad
+[2025.09.20-11.05.45:012][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Run_ANIM.Slime_Run_ANIM, at AnimationSequence/b12597c750947498f32e0ce7a0ced16fb5809187
+[2025.09.20-11.05.45:018][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Die_ANIM.Slime_Die_ANIM, at AnimationSequence/2967db7f8fe0a748d2e0330fbffb30380964b476
+[2025.09.20-11.05.45:018][974]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Slime/Slime_Attack02_ANIM.Slime_Attack02_ANIM, at AnimationSequence/3d9fc9f8463edcd523c4d8a377c18439a9754d85
+[2025.09.20-11.05.45:035][974]LogWorld: UWorld::CleanupWorld for MushroomAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.45:036][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.45:069][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.05.45:072][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.09.20-11.05.45:075][974]LogWorld: UWorld::CleanupWorld for SlimeAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.05.45:075][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.05.45:105][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.09.20-11.05.45:209][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.20-11.05.45:218][974]LogAudio: Display: Audio Device (ID: 1) registered with world 'SlimeAnimShowcase_MP'.
+[2025.09.20-11.05.45:218][974]LogChaosDD: Creating Chaos Debug Draw Scene for world SlimeAnimShowcase_MP
+[2025.09.20-11.05.45:349][974]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.05.45:378][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.09.20-11.05.45:386][974]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.05.45:388][974]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,81ms to complete.
+[2025.09.20-11.05.45:568][975]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.06.44:455][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.09.20-11.06.44:460][209]LogStreaming: Display: FlushAsyncLoading(423): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:476][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:477][209]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP_BuiltData.Swarm08AnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.44:478][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveRGT_Anim.Swarm08_MoveRGT_Anim (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.06.44:478][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveLFT_Anim.Swarm08_MoveLFT_Anim (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.06.44:478][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveFWD_Anim.Swarm08_MoveFWD_Anim (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.06.44:479][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveBWD_Anim.Swarm08_MoveBWD_Anim (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.06.44:479][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_Idle_Anim.Swarm08_Idle_Anim (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.06.44:479][209]LogChaosDD: Creating Chaos Debug Draw Scene for world Swarm08AnimShowcase_MP
+[2025.09.20-11.06.44:479][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_GetHit_Anim.Swarm08_GetHit_Anim (Required Memory Estimate: 0.24 MB)
+[2025.09.20-11.06.44:480][209]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_Die_Anim.Swarm08_Die_Anim (Required Memory Estimate: 0.26 MB)
+[2025.09.20-11.06.44:481][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveFWD_Anim.Swarm08_MoveFWD_Anim, at AnimationSequence/ef604c168324b2e32cbccbcfe7400bcc743a3109
+[2025.09.20-11.06.44:481][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveRGT_Anim.Swarm08_MoveRGT_Anim, at AnimationSequence/ca415c183f82e624cb9e0bb3e2b6caaf86af5b17
+[2025.09.20-11.06.44:481][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_GetHit_Anim.Swarm08_GetHit_Anim, at AnimationSequence/34e96327a4a84a4bf981941048ca4991276aa071
+[2025.09.20-11.06.44:482][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_Idle_Anim.Swarm08_Idle_Anim, at AnimationSequence/fd2b344ac00b768b5286942b17503bf73c7929d8
+[2025.09.20-11.06.44:482][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveLFT_Anim.Swarm08_MoveLFT_Anim, at AnimationSequence/256ac60d994d51b1614a45b155c4bf6469e1de0d
+[2025.09.20-11.06.44:482][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_MoveBWD_Anim.Swarm08_MoveBWD_Anim, at AnimationSequence/0a67c78db0c34c6265f2dbb2f6927e3828bf99a6
+[2025.09.20-11.06.44:482][209]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm08/Swarm08_Die_Anim.Swarm08_Die_Anim, at AnimationSequence/326ac3ff7bacdbee96e67e1c4c9c4d435285da57
+[2025.09.20-11.06.44:484][209]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP.Swarm08AnimShowcase_MP
+[2025.09.20-11.06.44:484][209]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/Swarm08AnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.06.44:508][209]LogWorld: UWorld::CleanupWorld for SlimeAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.06.44:508][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.06.44:535][209]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.06.44:538][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.09.20-11.06.44:540][209]LogWorld: UWorld::CleanupWorld for Swarm08AnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.06.44:540][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.06.44:568][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.09.20-11.06.44:677][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.20-11.06.44:685][209]LogAudio: Display: Audio Device (ID: 1) registered with world 'Swarm08AnimShowcase_MP'.
+[2025.09.20-11.06.44:686][209]LogChaosDD: Creating Chaos Debug Draw Scene for world Swarm08AnimShowcase_MP
+[2025.09.20-11.06.44:813][209]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.06.44:842][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.09.20-11.06.44:849][209]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.06.44:851][209]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,646ms to complete.
+[2025.09.20-11.06.45:040][210]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.06.48:651][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.09.20-11.06.48:654][399]LogStreaming: Display: FlushAsyncLoading(425): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.06.48:668][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:668][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:669][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:669][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:669][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:669][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:669][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:669][399]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP_BuiltData.Swarm09AnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.48:670][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveRGT_Anim.Swarm09_MoveRGT_Anim (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.06.48:670][399]LogChaosDD: Creating Chaos Debug Draw Scene for world Swarm09AnimShowcase_MP
+[2025.09.20-11.06.48:670][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveLFT_Anim.Swarm09_MoveLFT_Anim (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.06.48:670][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveFWD_Anim.Swarm09_MoveFWD_Anim (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.06.48:672][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveBWD_Anim.Swarm09_MoveBWD_Anim (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.06.48:672][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_Idle_Anim.Swarm09_Idle_Anim (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.06.48:673][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_GetHit_Anim.Swarm09_GetHit_Anim (Required Memory Estimate: 0.23 MB)
+[2025.09.20-11.06.48:673][399]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_Die_Anim.Swarm09_Die_Anim (Required Memory Estimate: 0.24 MB)
+[2025.09.20-11.06.48:675][399]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP.Swarm09AnimShowcase_MP
+[2025.09.20-11.06.48:675][399]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/Swarm09AnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.06.48:675][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_GetHit_Anim.Swarm09_GetHit_Anim, at AnimationSequence/b117ab7cafb90d0c7865423a66e5b9df8a2f7acb
+[2025.09.20-11.06.48:677][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_Die_Anim.Swarm09_Die_Anim, at AnimationSequence/1c5cf399e45cf5313d2fd0a2b3e73c6966c62f9f
+[2025.09.20-11.06.48:677][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveLFT_Anim.Swarm09_MoveLFT_Anim, at AnimationSequence/0c4c478383d8ea828ee9269574a0ef9593272ff3
+[2025.09.20-11.06.48:678][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_Idle_Anim.Swarm09_Idle_Anim, at AnimationSequence/7e468a02cf62e133955eb21603e941592c5f8f24
+[2025.09.20-11.06.48:679][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveBWD_Anim.Swarm09_MoveBWD_Anim, at AnimationSequence/9866c5d783db78d0bea5862a120f2c4ae9d735cc
+[2025.09.20-11.06.48:679][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveRGT_Anim.Swarm09_MoveRGT_Anim, at AnimationSequence/23eeda97f0353e9a2b8638ac192bfda814b645b6
+[2025.09.20-11.06.48:679][399]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/Swarm09/Swarm09_MoveFWD_Anim.Swarm09_MoveFWD_Anim, at AnimationSequence/845838f140b6c85c9928e3b662579b51a0578c09
+[2025.09.20-11.06.48:699][399]LogWorld: UWorld::CleanupWorld for Swarm08AnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.06.48:699][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.06.48:725][399]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.06.48:728][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.09.20-11.06.48:730][399]LogWorld: UWorld::CleanupWorld for Swarm09AnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.06.48:731][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.06.48:757][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.20-11.06.48:855][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.09.20-11.06.48:863][399]LogAudio: Display: Audio Device (ID: 1) registered with world 'Swarm09AnimShowcase_MP'.
+[2025.09.20-11.06.48:864][399]LogChaosDD: Creating Chaos Debug Draw Scene for world Swarm09AnimShowcase_MP
+[2025.09.20-11.06.48:984][399]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.06.49:007][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.20-11.06.49:015][399]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.06.49:015][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,074ms to complete.
+[2025.09.20-11.06.49:184][400]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.06.52:787][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.09.20-11.06.52:792][589]LogStreaming: Display: FlushAsyncLoading(427): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.20-11.06.52:831][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 1.651002 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:831][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:831][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:SkyOcclusion1_2 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 1.325445 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:831][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:ShadowMapTexture2D_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.1302 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:831][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:SkyOcclusion1_1 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 2.302008 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:831][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 1.471324 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:832][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:832][589]LogTexture: Display: Building textures: /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP_BuiltData.TurtleShellAnimShowcase_MP_BuiltData:ShadowMapTexture2D_1 (BGRA8, 32x32 x1x1x1) (Required Memory Estimate: 1.032544 MB), EncodeSpeed: Fast
+[2025.09.20-11.06.52:833][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_WalkRight_ANIM.TurtleShell_WalkRight_ANIM (Required Memory Estimate: 0.38 MB)
+[2025.09.20-11.06.52:833][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_WalkLeft_ANIM.TurtleShell_WalkLeft_ANIM (Required Memory Estimate: 0.38 MB)
+[2025.09.20-11.06.52:833][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_WalkBack_ANIM.TurtleShell_WalkBack_ANIM (Required Memory Estimate: 0.38 MB)
+[2025.09.20-11.06.52:833][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Walk_ANIM.TurtleShell_Walk_ANIM (Required Memory Estimate: 0.38 MB)
+[2025.09.20-11.06.52:834][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Victory_ANIM.TurtleShell_Victory_ANIM (Required Memory Estimate: 0.67 MB)
+[2025.09.20-11.06.52:834][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Taunt_ANIM.TurtleShell_Taunt_ANIM (Required Memory Estimate: 0.49 MB)
+[2025.09.20-11.06.52:834][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_SenseSomethingStart_ANIM.TurtleShell_SenseSomethingStart_ANIM (Required Memory Estimate: 0.55 MB)
+[2025.09.20-11.06.52:836][589]LogChaosDD: Creating Chaos Debug Draw Scene for world TurtleShellAnimShowcase_MP
+[2025.09.20-11.06.52:838][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_WalkLeft_ANIM.TurtleShell_WalkLeft_ANIM, at AnimationSequence/888943aee0088faf901f00230b0d62f11a8b8316
+[2025.09.20-11.06.52:839][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_SenseSomethingRT_ANIM.TurtleShell_SenseSomethingRT_ANIM (Required Memory Estimate: 0.61 MB)
+[2025.09.20-11.06.52:840][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_WalkRight_ANIM.TurtleShell_WalkRight_ANIM, at AnimationSequence/92675d9d76384cfe50da0dd5942761f83b6959cb
+[2025.09.20-11.06.52:840][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Walk_ANIM.TurtleShell_Walk_ANIM, at AnimationSequence/49f7aba36b6e07de53046602b4c71a11a1c5ccda
+[2025.09.20-11.06.52:840][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_WalkBack_ANIM.TurtleShell_WalkBack_ANIM, at AnimationSequence/a339c14761f1b35c4a7c35b4e0afc61d28fe0621
+[2025.09.20-11.06.52:840][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Run_ANIM.TurtleShell_Run_ANIM (Required Memory Estimate: 0.30 MB)
+[2025.09.20-11.06.52:840][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_IdleNormal_ANIM.TurtleShell_IdleNormal_ANIM (Required Memory Estimate: 0.49 MB)
+[2025.09.20-11.06.52:840][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_IdleBattle_ANIM.TurtleShell_IdleBattle_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.06.52:842][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Taunt_ANIM.TurtleShell_Taunt_ANIM, at AnimationSequence/a9516c02b83f2ff6be271edaca5930a7264de629
+[2025.09.20-11.06.52:842][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_GetHit_ANIM.TurtleShell_GetHit_ANIM (Required Memory Estimate: 0.35 MB)
+[2025.09.20-11.06.52:844][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Run_ANIM.TurtleShell_Run_ANIM, at AnimationSequence/30802b9c45a7a9e43baba3816180c0c227243d7e
+[2025.09.20-11.06.52:844][589]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP.TurtleShellAnimShowcase_MP
+[2025.09.20-11.06.52:844][589]Cmd: MAP LOAD FILE="../../../../../../Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/MonsterForSurvivalGame/Map/TurtleShellAnimShowcase_MP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.20-11.06.52:845][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Dizzy_ANIM.TurtleShell_Dizzy_ANIM (Required Memory Estimate: 0.44 MB)
+[2025.09.20-11.06.52:845][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Victory_ANIM.TurtleShell_Victory_ANIM, at AnimationSequence/08cc977b8508664d1bf4f256116a9cbf46bbf5fe
+[2025.09.20-11.06.52:846][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Die_ANIM.TurtleShell_Die_ANIM (Required Memory Estimate: 0.55 MB)
+[2025.09.20-11.06.52:847][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_SenseSomethingStart_ANIM.TurtleShell_SenseSomethingStart_ANIM, at AnimationSequence/5dede5e0d2364106e122abee5f940168cc5adbcb
+[2025.09.20-11.06.52:847][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_IdleBattle_ANIM.TurtleShell_IdleBattle_ANIM, at AnimationSequence/aca2c93f9a75a50cc6fdebd20c4d84fef119e5ba
+[2025.09.20-11.06.52:847][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_DefendHit_ANIM.TurtleShell_DefendHit_ANIM (Required Memory Estimate: 0.25 MB)
+[2025.09.20-11.06.52:847][589]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Defend_ANIM.TurtleShell_Defend_ANIM (Required Memory Estimate: 0.31 MB)
+[2025.09.20-11.06.52:848][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_GetHit_ANIM.TurtleShell_GetHit_ANIM, at AnimationSequence/ff185be31ffb68f86ead3892acb014e93555ac3a
+[2025.09.20-11.06.52:848][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_DefendHit_ANIM.TurtleShell_DefendHit_ANIM, at AnimationSequence/bf7de2ed2e38031983de46fe9f00eedaa8358f8c
+[2025.09.20-11.06.52:850][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_IdleNormal_ANIM.TurtleShell_IdleNormal_ANIM, at AnimationSequence/089ee89a17fbe723ce0569bd9dc2b1cf288abb05
+[2025.09.20-11.06.52:850][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_SenseSomethingRT_ANIM.TurtleShell_SenseSomethingRT_ANIM, at AnimationSequence/2a09d7afbdf7b38616b2c64498c5f9cbd21b8d94
+[2025.09.20-11.06.52:852][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Dizzy_ANIM.TurtleShell_Dizzy_ANIM, at AnimationSequence/5b066a9b85e2bcc297307f7691e9d10277e1b8b9
+[2025.09.20-11.06.52:853][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Defend_ANIM.TurtleShell_Defend_ANIM, at AnimationSequence/55c8f72fa1e2c4ccda1d00f03e95548c267edc39
+[2025.09.20-11.06.52:856][589]LogAnimationCompression: Display: Storing compressed animation data for /Game/MonsterForSurvivalGame/Animation/PBR/TurtleShell/TurtleShell_Die_ANIM.TurtleShell_Die_ANIM, at AnimationSequence/d2b0c269d3ae3d93ec46bd1686c9a8020f240aa5
+[2025.09.20-11.06.52:872][589]LogWorld: UWorld::CleanupWorld for Swarm09AnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.06.52:872][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.06.52:900][589]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.20-11.06.52:903][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.09.20-11.06.52:905][589]LogWorld: UWorld::CleanupWorld for TurtleShellAnimShowcase_MP, bSessionEnded=true, bCleanupResources=true
+[2025.09.20-11.06.52:905][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.20-11.06.52:932][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.09.20-11.06.53:036][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.09.20-11.06.53:043][589]LogAudio: Display: Audio Device (ID: 1) registered with world 'TurtleShellAnimShowcase_MP'.
+[2025.09.20-11.06.53:043][589]LogChaosDD: Creating Chaos Debug Draw Scene for world TurtleShellAnimShowcase_MP
+[2025.09.20-11.06.53:172][589]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.20-11.06.53:201][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.09.20-11.06.53:208][589]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.20-11.06.53:210][589]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,805ms to complete.
+[2025.09.20-11.06.53:397][590]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: ================================================
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Total job queries 572, among them cache hits 79 (13.81%), DDC hits 378 (66.08%), Duplicates 78 (13.64%)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Tracking 415 distinct input hashes that result in 302 distinct outputs (72.77%)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: RAM used: 3,78 MiB of 1,60 GiB budget. Usage: 0.23%
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Shaders Compiled: 37
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Jobs assigned 37, completed 37 (100%)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Average time worker was idle: 48.12 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 1.23 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Job execution time: average 1.63 s, max 2.63 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Job life time (pending + execution): average 1.75 s, max 2.96
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Shader code size: total 309,461 KiB, numShaders 37, average 8,363 KiB, min 4,285 KiB, max 13,957 KiB
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 18.17 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Jobs were issued in 37 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Average processing rate: 2.04 jobs/sec
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Total thread time: 48,978 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Total thread preprocess time: 14,178 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Percentage time preprocessing: 28.95%
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Effective parallelization: 2.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.337037
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 2.38 sec, max 2.38 sec, min 2.38 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    9 times, average 2.02 sec, max 2.33 sec, min 1.61 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 1.31 sec, max 1.44 sec, min 1.20 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 1.13 sec, max 1.44 sec, min 0.76 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 1.00 sec, max 1.05 sec, min 0.90 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.07% of total time (compiled    9 times, average 2.02 sec, max 2.33 sec, min 1.61 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                                 FLumenCardPS - 17.16% of total time (compiled    9 times, average 0.93 sec, max 1.11 sec, min 0.83 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.21% of total time (compiled    7 times, average 1.13 sec, max 1.44 sec, min 0.76 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.68% of total time (compiled    4 times, average 1.31 sec, max 1.44 sec, min 1.20 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.89% of total time (compiled    4 times, average 0.97 sec, max 1.06 sec, min 0.81 sec)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: === Material stats ===
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Materials Translated:    157
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Material Translation Only: 0.07 s (50%)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: Material Cache Hits: 45 (29%)
+[2025.09.20-11.07.18:835][ 91]LogShaderCompilers: Display: ================================================
