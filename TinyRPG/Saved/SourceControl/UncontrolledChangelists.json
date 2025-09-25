@@ -7,12 +7,14 @@
 			"files": [
 				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/ThirdPerson/Blueprints/BP_TinyHero.uasset",
 				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGHeroSquad/CharacterBP/BP_TinyHeroPBR.uasset",
-				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGHeroSquad/Animation/ABP_TinyHero.uasset",
 				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGHeroSquad/Animation/TinyHero/BS_TinyHero.uasset",
 				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGHeroSquad/Animation/TinyHero/ABP_TinyHero.uasset",
 				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGHeroSquad/Animation/TinyHero/InPlace/Anim_JumpEnd_Normal_InPlace_TinyHero.uasset",
 				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGTinyFantasyForest/Map/MP_Island.umap",
-				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/Blueprints/BP_Portal.uasset",
+				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/Blueprints/BP_Gate.uasset",
+				"C:/Users/nadia/source/repos/Yuu1198/TinyRPG/TinyRPG/Content/RPGHeroSquad/Animation/ABP_TinyHero.uasset"
 			]
 		}
 	]
